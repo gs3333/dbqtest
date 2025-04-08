@@ -1,0 +1,12 @@
+{
+  "name": "expedia-flight-webhook",
+  "version": "1.0.0",
+  "description": "Webhook for Dialogflow CX Expedia Flight Search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
