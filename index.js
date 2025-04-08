@@ -4,7 +4,7 @@ app.use(express.json());
 
 app.post("/", (req, res) => {
   const parameters = req.body.sessionInfo?.parameters || {};
-  const city = parameters.city || "Chicago";
+  const city = parameters["geo-city"] || "Chicago";
 
   const formattedCity = encodeURIComponent(city);
   const today = new Date();
